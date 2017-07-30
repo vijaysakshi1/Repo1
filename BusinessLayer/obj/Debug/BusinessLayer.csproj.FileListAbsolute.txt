@@ -3,3 +3,8 @@ D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\bin\Debug\BusinessLayer.p
 D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
 D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\bin\Debug\DataLayer.dll
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\bin\Debug\DataLayer.dll.config
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\bin\Debug\EntityFramework.xml

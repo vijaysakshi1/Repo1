@@ -19,8 +19,14 @@ namespace HospitalManagement.Controllers
         [HttpPost]
         public ActionResult Index(LoginModel objlogin)
         {
-            
+            if (ModelState.IsValid)
+            {
+                if(objlogin.IsValidAdmin(objlogin))
+                {
+                    return RedirectToAction("Index", "Home");
+                }
 
+            }
             return View(objlogin);
         }
     }

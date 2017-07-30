@@ -65,3 +65,10 @@ D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\bin\Microsoft.AI.Web
 D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\obj\Debug\HospitalManagement.csprojResolveAssemblyReference.cache
 D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\obj\Debug\HospitalManagement.dll
 D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\obj\Debug\HospitalManagement.pdb
+D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\bin\BusinessLayer.dll
+D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\bin\DataLayer.dll
+D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\bin\EntityFramework.dll
+D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\bin\BusinessLayer.pdb
+D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\bin\DataLayer.pdb
+D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\bin\DataLayer.dll.config
+D:\sakshiProjects\HMS\HospitalManagement\HospitalManagement\bin\EntityFramework.xml

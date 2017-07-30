@@ -3,3 +3,8 @@ D:\sakshiProjects\HMS\HospitalManagement\DataLayer\bin\Debug\DataLayer.pdb
 D:\sakshiProjects\HMS\HospitalManagement\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
 D:\sakshiProjects\HMS\HospitalManagement\DataLayer\obj\Debug\DataLayer.dll
 D:\sakshiProjects\HMS\HospitalManagement\DataLayer\obj\Debug\DataLayer.pdb
+D:\sakshiProjects\HMS\HospitalManagement\DataLayer\bin\Debug\DataLayer.dll.config
+D:\sakshiProjects\HMS\HospitalManagement\DataLayer\bin\Debug\EntityFramework.dll
+D:\sakshiProjects\HMS\HospitalManagement\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\sakshiProjects\HMS\HospitalManagement\DataLayer\bin\Debug\EntityFramework.xml
+D:\sakshiProjects\HMS\HospitalManagement\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
