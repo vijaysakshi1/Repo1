@@ -1,0 +1,5 @@
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\sakshiProjects\HMS\HospitalManagement\BusinessLayer\obj\Debug\BusinessLayer.pdb

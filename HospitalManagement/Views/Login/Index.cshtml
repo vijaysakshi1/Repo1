@@ -1,0 +1,81 @@
+﻿@model HospitalManagement.Models.LoginModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SignIn.cshtml";
+}
+
+
+<form id="login">
+    <div class="widget">
+        <h4>Login</h4>
+        <div class="row">
+            <div class="col-xs-20">
+                <div class="form-group">
+                    <div class="col-xs-5">User Name:</div>
+                    
+                        <div class="col-xs-15">
+                            @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", @placeholder = "User Name"  })
+                        </div>
+                  
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-5">Password:</div>
+                    <div class="col-xs-15">
+                        @Html.TextBoxFor(model => model.Password, new { @class = "form-control", @placeholder = "Password"  })
+                    </div>
+                </div>
+                <div class=" form-group">
+                    <div class="col-md-offset-2 col-md-8">
+                        <input type="submit" value="Login" class="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>
+<form id="register">
+    <div class="widget">
+        <h4>Register</h4>
+        <div class="row">
+            <div class="col-xs-20">
+                <div class="form-group">
+                    <div class="col-xs-5">User Name:</div>
+
+                    <div class="col-xs-15">
+                        @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", @placeholder = "User Name" })
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-5">Password:</div>
+                    <div class="col-xs-15">
+                        @Html.TextBoxFor(model => model.Password, new { @class = "form-control", @placeholder = "Password" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-5">Confirm Password:</div>
+                    <div class="col-xs-15">
+                        @Html.TextBoxFor(model => model.ConfirmPassword , new { @class = "form-control", @placeholder = "Confirm Password" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-5">Upload Image:</div>
+                    <div class="col-xs-15">
+                       <input type="file" name="file" id="file" class="form-control" />
+                    </div>
+                </div>
+
+                <div class=" form-group">
+                    <div class="col-md-offset-2 col-md-8">
+                        <input type="submit" value="Sign Now" class="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>
+
+
+

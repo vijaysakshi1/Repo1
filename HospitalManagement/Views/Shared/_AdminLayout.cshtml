@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+        <link href="~/Content/_all-skins.css" rel="stylesheet" />
+    <link href="~/Content/HMS.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body class="skin-blue sidebar-mini wysihtml5-supported">
+    <div class="wrapper">
+        <header class="main-header">
+            
+            <nav class="navbar navbar-static-top">
+                <div class="navbar-custom-menu">
+                    <span id="logo">Admin-HMS</span>
+                    <ul class="navigation">
+                        <li class="topNav"><i class="fa fa-tasks" aria-hidden="true"></i></li>
+                        <li class="topNav"><i class="fa fa-bell-o" aria-hidden="true"></i></li>
+                        <li class="topNav"><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+                        
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <div class="user-panel"></div>
+                <form></form>
+                <ul class="sidebar-menu">
+                  
+                        <li ><i class="fa fa-dashboard" aria-hidden="true"></i><span class="sidemenu">Dash Board</span></li><hr/>
+                        <li ><i class="fa fa-bell-o" aria-hidden="true"></i></li><hr/>
+                        <li <i class="fa fa-envelope-o" aria-hidden="true"></i></li><hr/>
+
+
+                   
+                </ul>
+            </section>
+        </aside>
+        
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+       
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
